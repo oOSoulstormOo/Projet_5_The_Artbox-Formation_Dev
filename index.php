@@ -25,7 +25,7 @@
                 </a>
             </article>
             <article class="oeuvre">
-                <a href=<?php echo "oeuvre-3.php"; ?>>
+                <a href=<?php echo "oeuvre-4.php"; ?>>
                     <img src="img/steve-johnson-5.png" alt="Le refuge de l'Havre">
                     <h2>Le refuge de l'Havre</h2>
                     <p class="description">Simon Pelletier</p>
