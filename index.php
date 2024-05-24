@@ -18,7 +18,7 @@
                 </a>
             </article>
             <article class="oeuvre">
-                <a href="oeuvre-3.html">
+                <a href=<?php echo "oeuvre-3.php"; ?>>
                     <img src="img/dan-cristian-padure.png" alt="Nightlife Traffic">
                     <h2>Nightlife Traffic</h2>
                     <p class="description">Andrew Forsythe</p>
