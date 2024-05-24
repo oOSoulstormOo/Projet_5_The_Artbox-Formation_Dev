@@ -60,7 +60,7 @@
                 </a>
             </article>
             <article class="oeuvre">
-                <a href="oeuvre-9.html">
+                <a href=<?php echo "oeuvre-9.php"; ?>>
                     <img src="img/victor-grabarczyk.png" alt="Hurricane">
                     <h2>Hurricane</h2>
                     <p class="description">Natalie Wellington</p>
