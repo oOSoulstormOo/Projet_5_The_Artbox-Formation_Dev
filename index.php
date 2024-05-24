@@ -88,7 +88,7 @@
                 </a>
             </article>
             <article class="oeuvre">
-                <a href="oeuvre-13.html">
+                <a href=<?php echo "oeuvre-13.php"; ?>>
                     <img src="img/orfeas-green.png" alt="Puffy Amalgamate">
                     <h2>Puffy Amalgamate</h2>
                     <p class="description">Sandro De Blasi</p>
