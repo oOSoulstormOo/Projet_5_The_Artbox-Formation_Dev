@@ -74,7 +74,7 @@
                 </a>
             </article>
             <article class="oeuvre">
-                <a href="oeuvre-11.html">
+                <a href=<?php echo "oeuvre-11.php"; ?>>
                     <img src="img/steve-johnson-2.png" alt="Asimilacion">
                     <h2>Asimilacion</h2>
                     <p class="description">Angel Sanchez-Fernandez</p>
