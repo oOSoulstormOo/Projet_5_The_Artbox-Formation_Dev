@@ -39,7 +39,7 @@
                 </a>
             </article>
             <article class="oeuvre">
-                <a href="oeuvre-6.html">
+                <a href=<?php echo "oeuvre-6.php"; ?>>
                     <img src="img/pawel-czerwinski.png" alt="Chromatics">
                     <h2>Chromatics</h2>
                     <p class="description">Jean-Michel Delatronchette</p>
