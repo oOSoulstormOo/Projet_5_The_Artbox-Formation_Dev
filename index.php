@@ -95,7 +95,7 @@
                 </a>
             </article>
             <article class="oeuvre">
-                <a href="oeuvre-14.html">
+                <a href=<?php echo "oeuvre-13.php"; ?>>
                     <img src="img/steve-johnson-4.png" alt="Mirage">
                     <h2>Mirage</h2>
                     <p class="description">Stéphanie Kaiser</p>
