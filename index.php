@@ -81,7 +81,7 @@
                 </a>
             </article>
             <article class="oeuvre">
-                <a href="oeuvre-12.html">
+                <a href=<?php echo "oeuvre-12.php"; ?>>
                     <img src="img/fly-d.png" alt="La Galaxia Gialla">
                     <h2>La Galaxia Gialla</h2>
                     <p class="description">Eduardo Tancredi</p>
