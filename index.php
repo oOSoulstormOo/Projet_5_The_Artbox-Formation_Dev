@@ -46,7 +46,7 @@
                 </a>
             </article>
             <article class="oeuvre">
-                <a href="oeuvre-7.html">
+                <a href=<?php echo "oeuvre-7.php"; ?>>
                     <img src="img/jazmin-quaynor.png" alt="Digital Negative">
                     <h2>Digital Negative</h2>
                     <p class="description">Hamish McKee</p>
