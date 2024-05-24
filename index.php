@@ -11,7 +11,7 @@
                 </a>
             </article>
             <article class="oeuvre">
-                <a href="oeuvre-2.html">
+                <a href=<?php echo "oeuvre-2.php"; ?>>
                     <img src="img/pawel-czerwinski-3.png" alt="Aashaaheen Baadal">
                     <h2>Aashaaheen Baadal</h2>
                     <p class="description">Anaisha Devi</p>
