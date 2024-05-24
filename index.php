@@ -67,7 +67,7 @@
                 </a>
             </article>
             <article class="oeuvre">
-                <a href="oeuvre-10.html">
+                <a href=<?php echo "oeuvre-10.php"; ?>>
                     <img src="img/pawel-czerwinski-2.png" alt="La marée rouge">
                     <h2>La marée rouge</h2>
                     <p class="description">Martin Rodriguez</p>
