@@ -53,7 +53,7 @@
                 </a>
             </article>
             <article class="oeuvre">
-                <a href="oeuvre-8.html">
+                <a href=<?php echo "oeuvre-8.php"; ?>>
                     <img src="img/steve-johnson-6.png" alt="Blast from the past">
                     <h2>Blast from the past</h2>
                     <p class="description">Juliette Baskerville</p>
