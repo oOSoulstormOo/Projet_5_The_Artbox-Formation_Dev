@@ -102,7 +102,7 @@
                 </a>
             </article>
             <article class="oeuvre">
-                <a href="oeuvre-15.html">
+                <a href=<?php echo "oeuvre-15.php"; ?>>
                     <img src="img/steve-johnson-3.png" alt="Blaue Gelbe Muster">
                     <h2>Blaue Gelbe Muster</h2>
                     <p class="description">Adelheid Von Schreiber</p>
