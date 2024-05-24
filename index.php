@@ -1,3 +1,4 @@
+<!-- Intégration du Doctype + balise : head - body - header -->
 <?php require_once(__DIR__. 'header.php'); ?>
 
     <main>
@@ -109,5 +110,5 @@
             </article>
         </div>
     </main>
-   
+    <!-- Intégration du footer + fermeture des balise body et HTML -->
     <?php require_once(__DIR__. 'footer.php'); ?>
