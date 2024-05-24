@@ -32,7 +32,7 @@
                 </a>
             </article>
             <article class="oeuvre">
-                <a href="oeuvre-5.html">
+                <a href=<?php echo "oeuvre-5.php"; ?>>
                     <img src="img/steve-johnson.png" alt="Red Washover">
                     <h2>Red Washover</h2>
                     <p class="description">Kit Van Der Borght</p>
