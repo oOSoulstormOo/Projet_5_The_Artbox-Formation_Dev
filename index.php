@@ -1,5 +1,5 @@
 <!-- Intégration du Doctype + balise : head - body - header -->
-<?php require_once(__DIR__. 'header.php'); ?>
+<?php require_once 'header.php'; ?>
 
     <main>
         <div id="liste-oeuvres">
@@ -111,4 +111,4 @@
         </div>
     </main>
     <!-- Intégration du footer + fermeture des balise body et HTML -->
-    <?php require_once(__DIR__. 'footer.php'); ?>
+    <?php require_once 'footer.php'; ?>
