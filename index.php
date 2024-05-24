@@ -4,7 +4,7 @@
     <main>
         <div id="liste-oeuvres">
             <article class="oeuvre">
-                <a href="oeuvre-1.html">
+                <a href= <?php echo "oeuvre-1.php"; ?>>
                     <img src="img/clark-van-der-beken.png" alt="Dodomu">
                     <h2>Dodomu</h2>
                     <p class="description">Mia Tozerski</p>
