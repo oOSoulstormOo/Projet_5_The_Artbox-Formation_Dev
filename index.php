@@ -3,13 +3,17 @@
 
     <main>
         <div id="liste-oeuvres">
-            <article class="oeuvre">
-                <a href= <?php echo "oeuvre-1.php"; ?>>
-                    <img src="img/clark-van-der-beken.png" alt="Dodomu">
-                    <h2>Dodomu</h2>
-                    <p class="description">Mia Tozerski</p>
-                </a>
-            </article>
+            <?php require_once 'oeuvres.php'; ?>
+            <?php foreach ($oeuvres as $oeuvre) : ?>
+                <article class="oeuvre">
+                    <a href="oeuvre-<?php echo ($oeuvre['id']); ?>.php">
+                    <img src=<?php echo ($oeuvre['img']); ?> alt=<?php echo ($oeuvre['title']); ?>>
+                    <h2><?php echo ($oeuvre['title']); ?></h2>
+                    <p class='description'><?php echo ($oeuvre['description']); ?></p>
+                    </a>
+                </article>
+            <?php endforeach; ?>
+            
             <article class="oeuvre">
                 <a href=<?php echo "oeuvre-2.php"; ?>>
                     <img src="img/pawel-czerwinski-3.png" alt="Aashaaheen Baadal">
