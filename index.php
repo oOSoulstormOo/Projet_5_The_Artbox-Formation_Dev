@@ -5,6 +5,7 @@
         <div id="liste-oeuvres">
             <!-- Intégration du fichier oeuvres.php pour faire appele a la $oeuvres -->
             <?php require_once 'oeuvres.php'; ?>
+            
             <!-- Boucle "pour chaque" qui affiche les articles avec les élements du tableau correspondant -->
             <?php foreach ($oeuvres as $oeuvre) : ?>
                 <article class="oeuvre">
@@ -17,5 +18,6 @@
             <?php endforeach; ?>
         </div>
     </main>
+
     <!-- Intégration du footer + fermeture des balise body et HTML -->
     <?php require_once 'footer.php'; ?>
