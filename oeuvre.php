@@ -6,7 +6,7 @@
     <?php require_once 'oeuvres.php'; ?>
     <!-- On vérifie si l'ID est présent dans l'URL -->
     <?php if (isset($_GET['id'])) {
-            $id = $_GET['id]'];
+            $id = (int)$_GET['id'];//préciser qu'il s'agit d'un entier que l'on veut récuperer...par défaut, c'est une chaine de caractère.
             $oeuvretrouve = null; 
     };
     ?>
@@ -17,10 +17,10 @@
                 break;// et on arrête de chercher
             }
     }; ?>
-
+    
     <!-- Si l'oeuvre est trouvé, on affiche les détails de celle-ci -->
     <?php if ($oeuvretrouve) : ?>
-    <article id="detail-oeuvre">
+        <article id="detail-oeuvre">
         <div id="img-oeuvre">
             <img src=<?php echo ($oeuvretrouve['img']); ?> alt=<?php echo ($oeuvretrouve['title']); ?>>
         </div>
@@ -30,7 +30,9 @@
             <p class="description-complete"><?php echo ($oeuvretrouve['complete_description']); ?></p>
         </div>
     </article>
+    
     <?php endif; ?>
+    
 </main>
     <!-- Intégration du footer + fermeture des balise body et HTML -->
     <?php require_once 'footer.php'; ?>
