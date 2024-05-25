@@ -1,4 +1,4 @@
-<!-- Intégration du Doctype + balise : head - body - header -->
+<!-- Intégration du Doctype + balise : head - body - header. -->
 <?php require_once 'header.php'; ?>
 
     <main>
