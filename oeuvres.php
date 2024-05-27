@@ -3,7 +3,7 @@
 $oeuvres = [
             ['id' => 1,
              'title' => 'Dodomu',
-             'img' => "img/clark-van-der-beken.png",
+             'img' => "clark-van-der-beken.png",
              'description' => 'Mia Tozerski',
              'complete_description' => "Mia Tozerski est une artiste peintre ukrainienne réfugiée de la guerre. Sur cette œuvre, Dodomu (\"domicile\" en ukrainien), elle nous montre la tristesse du peuple 
                                         ukrainien qu'elle partage, ayant elle-même dû quitter son foyer. L'œuvre évoque le drapeau liquéfié d'une Ukraine en souffrance, pleurant la mort de ses compatriotes. 
@@ -12,14 +12,14 @@ $oeuvres = [
             ],
             ['id' => 2,
              'title' => 'Aashaaheen Baadal',
-             'img' => "img/pawel-czerwinski-3.png",
+             'img' => "pawel-czerwinski-3.png",
              'description' => 'Anaisha Devi',
              'complete_description' => "Sur cette oeuvre conceptuelle à la fois organique, minérale et liquide, Anaisha Devi nous transporte dans un nuage noir envoûtant. Un sombre tableau qui, 
                                         par son verni éclatant, rayonne tel un marbre poli. Une oeuvre à la cohérence transcendantale, exécutée à la perfection",
             ],
             ['id' => 3,
              'title' => 'Nightlife Traffic',
-             'img' => "img/dan-cristian-padure.png",
+             'img' => "dan-cristian-padure.png",
              'description' => 'Andrew Forsythe',
              'complete_description' => "Quisque accumsan ultrices ligula vestibulum posuere. Aliquam feugiat ligula eget massa blandit condimentum. Morbi volutpat erat luctus suscipit pellentesque. 
                                         Quisque cursus tempor nibh at sollicitudin. Sed blandit libero velit. Etiam tincidunt facilisis mollis. Ut mollis nunc sit amet lacinia luctus. 
@@ -27,7 +27,7 @@ $oeuvres = [
             ],
             ['id' => 4,
              'title' => 'Le refuge de l\'Havre',
-             'img' => "img/steve-johnson-5.png",
+             'img' => "steve-johnson-5.png",
              'description' => 'Simon Pelletier',
              'complete_description' => "Nam tempus neque nec felis venenatis auctor. Nam velit risus, lobortis eu quam non, interdum efficitur nibh. Phasellus a augue ac orci lacinia mattis et vel lectus. 
                                         Sed nec tellus urna. Donec at turpis turpis. Cras quam tellus, imperdiet vitae finibus id, varius quis felis. 
@@ -36,7 +36,7 @@ $oeuvres = [
             ],
             ['id' => 5,
              'title' => 'Red Washover',
-             'img' => "img/steve-johnson.png",
+             'img' => "steve-johnson.png",
              'description' => 'Simon Pelletier',
              'complete_description' => "Nunc euismod ullamcorper tortor, id efficitur ante interdum in. Integer eu condimentum nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
                                         per inceptos himenaeos. Cras viverra suscipit feugiat. Mauris vehicula luctus tellus, eu hendrerit libero laoreet ut. In tristique vehicula nisl in tempus. 
@@ -44,13 +44,13 @@ $oeuvres = [
             ],
             ['id' => 6,
              'title' => 'Chromatics',
-             'img' => "img/pawel-czerwinski.png",
+             'img' => "pawel-czerwinski.png",
              'description' => 'Jean-Michel Delatronchette',
              'complete_description' => "Vivamus commodo non libero at hendrerit. In lacinia dui sit amet pellentesque iaculis. Donec at ultricies sem porttitor.",
             ],
             ['id' => 7,
              'title' => 'Digital Negative',
-             'img' => "img/jazmin-quaynor.png",
+             'img' => "jazmin-quaynor.png",
              'description' => 'Hamish McKee',
              'complete_description' => "Integer in nisl posuere, pulvinar ex ac, tincidunt risus. Nullam vel lorem et leo dignissim accumsan. Lorem ipsum dolor sit amet, 
                                         consectetur adipiscing elit. Praesent tempor, magna non consectetur dapibus, est libero iaculis lacus, eget semper turpis orci vitae felis. 
@@ -58,14 +58,14 @@ $oeuvres = [
             ],
             ['id' => 8,
              'title' => 'Blast from the past',
-             'img' => "img/steve-johnson-6.png",
+             'img' => "steve-johnson-6.png",
              'description' => 'Juliette Baskerville',
              'complete_description' => "Nunc fermentum purus dapibus justo fermentum auctor. Maecenas non tincidunt leo. Morbi vitae iaculis sem. Donec quis scelerisque massa. 
                                         Fusce quis accumsan diam, et interdum lectus. Suspendisse mattis pulvinar vehicula. Duis nisi.", 
             ],
             ['id' => 9,
              'title' => 'Hurricane',
-             'img' => "img/victor-grabarczyk.png",
+             'img' => "victor-grabarczyk.png",
              'description' => 'Natalie Wellington',
              'complete_description' => "Aliquam tristique tempus molestie. Nulla nisl eros, dapibus eu lectus in, cursus accumsan arcu. 
                                         Suspendisse bibendum diam dignissim porta maximus. Praesent sollicitudin consectetur faucibus. 
@@ -75,7 +75,7 @@ $oeuvres = [
             ],
             ['id' => 10,
              'title' => 'La marée rouge',
-             'img' => "img/pawel-czerwinski-2.png",
+             'img' => "pawel-czerwinski-2.png",
              'description' => 'Martin Rodriguez',
              'complete_description' => "Vivamus quis odio vel ligula feugiat facilisis. Donec eleifend pellentesque massa, ut malesuada est bibendum sit amet. 
                                         Morbi tincidunt nec tellus vel ornare. Mauris dolor tellus, gravida eget euismod eu, viverra eget urna. Phasellus feugiat ipsum nec lorem accumsan, 
@@ -83,7 +83,7 @@ $oeuvres = [
             ],
             ['id' => 11,
              'title' => 'Asimilacion',
-             'img' => "img/steve-johnson-2.png",
+             'img' => "steve-johnson-2.png",
              'description' => 'Angel Sanchez-Fernandez',
              'complete_description' => "Mauris ut justo ac mi pretium eleifend. Curabitur sed magna ut elit facilisis pharetra. Maecenas tincidunt fermentum ipsum ut sollicitudin. 
                                         Nullam feugiat, neque vel egestas sollicitudin, quam leo mattis mauris, in lacinia sem mi id risus. Nullam ultrices quam eu leo auctor tempus. 
@@ -92,7 +92,7 @@ $oeuvres = [
             ],
             ['id' => 12,
              'title' => 'La Galaxia Gialla',
-             'img' => "img/fly-d.png",
+             'img' => "fly-d.png",
              'description' => 'Eduardo Tancredi',
              'complete_description' => "Mauris maximus, orci sollicitudin ultrices elementum, tellus neque feugiat leo, quis lobortis purus neque vel lectus. 
                                         Ut sagittis eros id lectus porttitor tincidunt. Donec scelerisque diam nec felis egestas, eget finibus ante porttitor. 
@@ -100,13 +100,13 @@ $oeuvres = [
             ],
             ['id' => 13,
              'title' => 'Puffy Amalgamate',
-             'img' => "img/orfeas-green.png",
+             'img' => "orfeas-green.png",
              'description' => 'Sandro De Blasi',
              'complete_description' => "Donec semper a massa quis congue. In malesuada lorem ligula, ut posuere magna pulvinar in. Proin vitae enim gravida, commodo odio.",
             ],
             ['id' => 14,
              'title' => 'Mirage',
-             'img' => "img/steve-johnson-4.png",
+             'img' => "steve-johnson-4.png",
              'description' => 'Stéphanie Kaiser',
              'complete_description' => "Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam iaculis lorem ac ex tristique egestas et nec sapien. 
                                         Donec tincidunt id erat sit amet tempus. Nullam vel molestie dui. Duis a neque massa. Vivamus quis ornare lacus. Nullam eleifend condimentum egestas. 
@@ -114,7 +114,7 @@ $oeuvres = [
             ],
             ['id' => 15,
              'title' => 'Blaue Gelbe Muster',
-             'img' => "img/steve-johnson-3.png",
+             'img' => "steve-johnson-3.png",
              'description' => 'Adelheid Von Schreiber',
              'complete_description' => "Curabitur dui odio, porta vel tempor sed, consectetur vitae mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
                                         Orci varius natoque penatibus nec.",
