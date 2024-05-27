@@ -10,7 +10,7 @@
             <?php foreach ($oeuvres as $oeuvre) : ?>
                 <article class="oeuvre">
                     <a href="oeuvre.php?id=<?php echo ($oeuvre['id']); ?>">
-                    <img src=<?php echo ($oeuvre['img']); ?> alt=<?php echo ($oeuvre['title']); ?>>
+                    <img src= "img/<?php echo ($oeuvre['img']); ?>" alt=<?php echo ($oeuvre['title']); ?>>
                     <h2><?php echo ($oeuvre['title']); ?></h2>
                     <p class='description'><?php echo ($oeuvre['description']); ?></p>
                     </a>

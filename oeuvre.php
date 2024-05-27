@@ -22,7 +22,7 @@
     <?php if ($oeuvretrouve) : ?>
         <article id="detail-oeuvre">
         <div id="img-oeuvre">
-            <img src=<?php echo ($oeuvretrouve['img']); ?> alt=<?php echo ($oeuvretrouve['title']); ?>>
+            <img src= "img/<?php echo ($oeuvretrouve['img']); ?>" alt=<?php echo ($oeuvretrouve['title']); ?>>
         </div>
         <div id="contenu-oeuvre">
             <h1><?php echo ($oeuvretrouve['title']); ?></h1>
